@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://FaizanCyber007.github.io/Portfolio-Website",
+  "homepage": "http://FaizanCyber007.github.io/portfolio-website",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://FaizanCyber007.github.io/Portfolio-Website/'",
+    "build-gh": "parcel build --public-url 'https://FaizanCyber007.github.io/portfolio-website'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
