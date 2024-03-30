@@ -25,13 +25,13 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Faizan Javed",
-  title: "Web Developer",
+  title: "Web Developer & UI/UX Designer",
   email: "faizanjaved246@gmail.com",
   gitHub: "https://github.com/FaizanCyber007",
   instagram: "https://www.instagram.com/faizanjaved246/",
   linkedIn: "https://www.linkedin.com/in/faizan-javed-b0267426a/",
   medium: "",
-  twitter: "...",
+  twitter: "",
   youTube: "https://www.youtube.com/channel/UCexqykFZSoJItV4KLXG6k5w",
 };
 
@@ -42,7 +42,7 @@ const App = () => {
   return (
     <div id="main">
       <Header />
-      <Home name={siteProps.name} title={siteProps.title} />
+      <Home  name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
